@@ -36,3 +36,7 @@ path = "src/aula12/main.rs"
 [[bin]]
 name = "aula13"
 path = "src/aula13/main.rs"
+
+[[bin]]
+name = "aula14"
+path = "src/aula14/main.rs"
