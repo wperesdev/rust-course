@@ -1,0 +1,38 @@
+[package]
+name = "rust-course"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "aula6"
+path = "src/aula6/main.rs"
+
+[[bin]]
+name = "aula7"
+path = "src/aula7/main.rs"
+
+[[bin]]
+name = "aula8"
+path = "src/aula8/main.rs"
+
+[[bin]]
+name = "aula9"
+path = "src/aula9/main.rs"
+
+[[bin]]
+name = "aula10"
+path = "src/aula10/main.rs"
+
+[[bin]]
+name = "aula11"
+path = "src/aula11/main.rs"
+
+[[bin]]
+name = "aula12"
+path = "src/aula12/main.rs"
+
+[[bin]]
+name = "aula13"
+path = "src/aula13/main.rs"

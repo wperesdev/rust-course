@@ -1,0 +1,304 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula10'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula10",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula10'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula10",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula11'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula11",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula11'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula11",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula11",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula12'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula12",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula12",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula12'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula12",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula12",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula13'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula13",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula13",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula13'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula13",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula13",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula6'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula6",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula6'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula6",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula7'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula7",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula7",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula7'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula7",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula7",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula8'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula8",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula8",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula8'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula8",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula8",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'aula9'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=aula9",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula9",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'aula9'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=aula9",
+                    "--package=rust-course"
+                ],
+                "filter": {
+                    "name": "aula9",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
